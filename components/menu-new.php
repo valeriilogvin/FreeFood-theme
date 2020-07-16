@@ -603,7 +603,7 @@
                         foreach( $posts as $post ){ setup_postdata($post);
                             ?>
                             <div class="food-cards__slide progress__block">
-                                <h4 class="progress-text">In progress</h2>
+                                <h4 class="progress-text">In progress</h4>>
                                 <img src="<?php the_field('menu-icon2'); ?>" style="margin:0 auto;">
                             </div>
                         <?php

@@ -61,6 +61,13 @@ $parent_style = 'parent-style';
 		'4.0',
 		true
 	);
+    wp_enqueue_script(
+        'foods-cart',
+        get_stylesheet_directory_uri() . '/js/cart.js',
+        array(),
+        '1.0',
+        true
+    );
 	wp_enqueue_script(
 		'foods-mainJs',
 		get_stylesheet_directory_uri() . '/js/main.js',
